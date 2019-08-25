@@ -1,0 +1,68 @@
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.1}Introduction}{\reset@font\stcSSfont 338}{subsection.5.1}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2}XYZ File Format}{\reset@font\stcSSfont 339}{subsection.5.2}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3}PDB File Format}{\reset@font\stcSSfont 340}{subsection.5.3}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4}Avogadro and VMD}{\reset@font\stcSSfont 341}{subsection.5.4}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5}Drawing Molecules}{\reset@font\stcSSfont 342}{subsection.5.5}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.6}Python and Jupyter}{\reset@font\stcSSfont 343}{subsection.5.6}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.7}Bond Lengths}{\reset@font\stcSSfont 344}{subsection.5.7}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.8}Covalent Radius}{\reset@font\stcSSfont 345}{subsection.5.8}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.9}Bond Angles}{\reset@font\stcSSfont 346}{subsection.5.9}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.10}Torsion Angles}{\reset@font\stcSSfont 347}{subsection.5.10}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.11}Z-Matrix Format}{\reset@font\stcSSfont 348}{subsection.5.11}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.12}Out-of-Plane Angles}{\reset@font\stcSSfont 349}{subsection.5.12}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.13}Center of Mass}{\reset@font\stcSSfont 350}{subsection.5.13}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.14}Moment of Inertia}{\reset@font\stcSSfont 351}{subsection.5.14}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.15}Rotational Constants}{\reset@font\stcSSfont 352}{subsection.5.15}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.16}Energy Functions}{\reset@font\stcSSfont 353}{subsection.5.16}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.17}Molecular Mechanics}{\reset@font\stcSSfont 354}{subsection.5.17}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.18}Force Field Parameters}{\reset@font\stcSSfont 355}{subsection.5.18}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.19}Atom Types}{\reset@font\stcSSfont 356}{subsection.5.19}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.20}MM Bond Stretch Terms}{\reset@font\stcSSfont 357}{subsection.5.20}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.21}MM Angle Bend Terms}{\reset@font\stcSSfont 358}{subsection.5.21}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.22}MM Torsion Strain Terms}{\reset@font\stcSSfont 359}{subsection.5.22}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.23}MM Out-of-Plane Terms}{\reset@font\stcSSfont 360}{subsection.5.23}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.24}MM van der Waals Terms}{\reset@font\stcSSfont 361}{subsection.5.24}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.25}MM Electrostatics Terms}{\reset@font\stcSSfont 362}{subsection.5.25}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.26}MM Cross Terms}{\reset@font\stcSSfont 363}{subsection.5.26}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.27}MM Program}{\reset@font\stcSSfont 364}{subsection.5.27}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.28}Energy Gradient}{\reset@font\stcSSfont 365}{subsection.5.28}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.29}Energy Minimization}{\reset@font\stcSSfont 366}{subsection.5.29}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.30}Steepest Descent}{\reset@font\stcSSfont 367}{subsection.5.30}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.31}Conjugate Gradient}{\reset@font\stcSSfont 368}{subsection.5.31}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.32}Ensemble Properties}{\reset@font\stcSSfont 369}{subsection.5.32}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.33}Thermal Energy}{\reset@font\stcSSfont 370}{subsection.5.33}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.34}Boundary Conditions}{\reset@font\stcSSfont 371}{subsection.5.34}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.35}Molecular Dynamics}{\reset@font\stcSSfont 372}{subsection.5.35}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.36}MD Program}{\reset@font\stcSSfont 373}{subsection.5.36}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.37}Monte Carlo}{\reset@font\stcSSfont 374}{subsection.5.37}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.38}Metropolis Monte Carlo}{\reset@font\stcSSfont 375}{subsection.5.38}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.39}MC Program}{\reset@font\stcSSfont 376}{subsection.5.39}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.40}Simulated Annealing}{\reset@font\stcSSfont 377}{subsection.5.40}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.41}Molecular Hamiltonian}{\reset@font\stcSSfont 378}{subsection.5.41}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.42}Atomic Units}{\reset@font\stcSSfont 379}{subsection.5.42}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.43}Born-Oppenheimer Approximation}{\reset@font\stcSSfont 380}{subsection.5.43}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.44}Spin Orbitals}{\reset@font\stcSSfont 381}{subsection.5.44}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.45}Hartree Product}{\reset@font\stcSSfont 382}{subsection.5.45}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.46}Anti-Symmetry Principle}{\reset@font\stcSSfont 383}{subsection.5.46}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.47}Slater Determinants}{\reset@font\stcSSfont 384}{subsection.5.47}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.48}Excited Determinants}{\reset@font\stcSSfont 385}{subsection.5.48}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.49}N-Electron Wavefunctions}{\reset@font\stcSSfont 386}{subsection.5.49}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.50}Restricted Determinants}{\reset@font\stcSSfont 387}{subsection.5.50}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.51}One-Electron Integrals}{\reset@font\stcSSfont 388}{subsection.5.51}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.52}Two-Electron Integrals}{\reset@font\stcSSfont 389}{subsection.5.52}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.53}Spin Integration}{\reset@font\stcSSfont 390}{subsection.5.53}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.54}Hartree-Fock Approximation}{\reset@font\stcSSfont 391}{subsection.5.54}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.55}Hartree-Fock Energy}{\reset@font\stcSSfont 392}{subsection.5.55}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.56}Coulomb and Exchange Operators}{\reset@font\stcSSfont 393}{subsection.5.56}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.57}Fock Operator}{\reset@font\stcSSfont 394}{subsection.5.57}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.58}Functional Variation}{\reset@font\stcSSfont 395}{subsection.5.58}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.59}Minimum Determinant Energy}{\reset@font\stcSSfont 396}{subsection.5.59}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.60}Canonical Hartree-Fock Equations}{\reset@font\stcSSfont 397}{subsection.5.60}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.61}Koopman's Theorem}{\reset@font\stcSSfont 398}{subsection.5.61}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.62}Restricted Hartree-Fock}{\reset@font\stcSSfont 399}{subsection.5.62}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.63}Hartree-Fock-Roothaan Equations}{\reset@font\stcSSfont 400}{subsection.5.63}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.64}Density Matrix}{\reset@font\stcSSfont 401}{subsection.5.64}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.65}Fock Matrix}{\reset@font\stcSSfont 402}{subsection.5.65}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.66}Orthogonalization}{\reset@font\stcSSfont 403}{subsection.5.66}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.67}Self-Consistent Field}{\reset@font\stcSSfont 404}{subsection.5.67}}
+{\reset@font\stcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.68}Population Analysis}{\reset@font\stcSSfont 405}{subsection.5.68}}

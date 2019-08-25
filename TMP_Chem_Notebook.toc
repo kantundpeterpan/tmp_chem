@@ -1,0 +1,403 @@
+\contentsline {section}{\numberline {1}Math }{3}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Introduction}{4}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Polynomial Properties}{5}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Polynomial Roots}{6}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Exponent and Logarithm Properties}{7}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}Complex Numbers}{8}{subsection.1.5}% 
+\contentsline {subsection}{\numberline {1.6}Trigonometric Functions}{9}{subsection.1.6}% 
+\contentsline {subsection}{\numberline {1.7}Spherical and Polar Coordinates}{10}{subsection.1.7}% 
+\contentsline {subsection}{\numberline {1.8}Derivative Definition}{11}{subsection.1.8}% 
+\contentsline {subsection}{\numberline {1.9}Basic Derivatives}{12}{subsection.1.9}% 
+\contentsline {subsection}{\numberline {1.10}Derivative Rules}{13}{subsection.1.10}% 
+\contentsline {subsection}{\numberline {1.11}Repeated Derivatives}{14}{subsection.1.11}% 
+\contentsline {subsection}{\numberline {1.12}Function Critical Points}{15}{subsection.1.12}% 
+\contentsline {subsection}{\numberline {1.13}Taylor Series}{16}{subsection.1.13}% 
+\contentsline {subsection}{\numberline {1.14}Integral Definition}{17}{subsection.1.14}% 
+\contentsline {subsection}{\numberline {1.15}Basic Integrals}{18}{subsection.1.15}% 
+\contentsline {subsection}{\numberline {1.16}Integral Rules}{19}{subsection.1.16}% 
+\contentsline {subsection}{\numberline {1.17}Partial Derivatives}{20}{subsection.1.17}% 
+\contentsline {subsection}{\numberline {1.18}Repeated Partial Derivatives}{21}{subsection.1.18}% 
+\contentsline {subsection}{\numberline {1.19}Multi-Dimensional Integrals}{22}{subsection.1.19}% 
+\contentsline {subsection}{\numberline {1.20}Volume Elements}{23}{subsection.1.20}% 
+\contentsline {subsection}{\numberline {1.21}Euler's Formula}{24}{subsection.1.21}% 
+\contentsline {subsection}{\numberline {1.22}Vectors}{25}{subsection.1.22}% 
+\contentsline {subsection}{\numberline {1.23}Matrices}{26}{subsection.1.23}% 
+\contentsline {subsection}{\numberline {1.24}Determinants}{27}{subsection.1.24}% 
+\contentsline {subsection}{\numberline {1.25}Matrix Properties}{28}{subsection.1.25}% 
+\contentsline {subsection}{\numberline {1.26}Matrix Eigenvalues and Eigenvectors}{29}{subsection.1.26}% 
+\contentsline {subsection}{\numberline {1.27}Discrete Dirac Notation}{30}{subsection.1.27}% 
+\contentsline {subsection}{\numberline {1.28}Matrix Operators}{31}{subsection.1.28}% 
+\contentsline {subsection}{\numberline {1.29}Unitary Transformation}{32}{subsection.1.29}% 
+\contentsline {subsection}{\numberline {1.30}Hermitian Matrices}{33}{subsection.1.30}% 
+\contentsline {subsection}{\numberline {1.31}Matrix Diagonalization}{34}{subsection.1.31}% 
+\contentsline {subsection}{\numberline {1.32}Matrix Commutators}{35}{subsection.1.32}% 
+\contentsline {subsection}{\numberline {1.33}Matrix Functions}{36}{subsection.1.33}% 
+\contentsline {section}{\numberline {2}Quantum Chemistry }{37}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Introduction}{42}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Blackbody Radiation}{43}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Photoelectric Effect}{44}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Rydberg Formula}{45}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Bohr Hydrogen Model 1: Radius}{46}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}Bohr Hydrogen Model 2: Energy}{47}{subsection.2.6}% 
+\contentsline {subsection}{\numberline {2.7}Wave-Particle Duality}{48}{subsection.2.7}% 
+\contentsline {subsection}{\numberline {2.8}Uncertainty Principle in Measurement}{49}{subsection.2.8}% 
+\contentsline {subsection}{\numberline {2.9}Classical Wave Equation}{50}{subsection.2.9}% 
+\contentsline {subsection}{\numberline {2.10}Vibrating String}{51}{subsection.2.10}% 
+\contentsline {subsection}{\numberline {2.11}Vibrating String Animation}{52}{subsection.2.11}% 
+\contentsline {subsection}{\numberline {2.12}Schrodinger Equation "Derivation"}{53}{subsection.2.12}% 
+\contentsline {subsection}{\numberline {2.13}Operators}{54}{subsection.2.13}% 
+\contentsline {subsection}{\numberline {2.14}Eigenvalues and Eigenfunctions}{55}{subsection.2.14}% 
+\contentsline {subsection}{\numberline {2.15}Interpreting the Wavefunction}{56}{subsection.2.15}% 
+\contentsline {subsection}{\numberline {2.16}Particle in a Box}{57}{subsection.2.16}% 
+\contentsline {subsection}{\numberline {2.17}Normalization}{58}{subsection.2.17}% 
+\contentsline {subsection}{\numberline {2.18}Particle in a Box Wavefunction Plots}{59}{subsection.2.18}% 
+\contentsline {subsection}{\numberline {2.19}UV-Vis Spectra of Polyenes}{60}{subsection.2.19}% 
+\contentsline {subsection}{\numberline {2.20}Average Position}{61}{subsection.2.20}% 
+\contentsline {subsection}{\numberline {2.21}Average Momentum}{62}{subsection.2.21}% 
+\contentsline {subsection}{\numberline {2.22}3-D Particle in a Box}{63}{subsection.2.22}% 
+\contentsline {subsection}{\numberline {2.23}Degeneracy}{64}{subsection.2.23}% 
+\contentsline {subsection}{\numberline {2.24}Postulates of Quantum Mechanics 1: Wavefunction}{65}{subsection.2.24}% 
+\contentsline {subsection}{\numberline {2.25}Postulates of Quantum Mechanics 2: Operators}{66}{subsection.2.25}% 
+\contentsline {subsection}{\numberline {2.26}Postulates of Quantum Mechanics 3: Measurement}{67}{subsection.2.26}% 
+\contentsline {subsection}{\numberline {2.27}Postulates of Quantum Mechanics 4: Expectation Values}{68}{subsection.2.27}% 
+\contentsline {subsection}{\numberline {2.28}Postulates of Quantum Mechanics 5: Schrodinger Equation}{69}{subsection.2.28}% 
+\contentsline {subsection}{\numberline {2.29}Commutators}{70}{subsection.2.29}% 
+\contentsline {subsection}{\numberline {2.30}Hermitian Operators}{71}{subsection.2.30}% 
+\contentsline {subsection}{\numberline {2.31}Dirac Notation}{72}{subsection.2.31}% 
+\contentsline {subsection}{\numberline {2.32}Orthogonality}{73}{subsection.2.32}% 
+\contentsline {subsection}{\numberline {2.33}Superposition Principle 1: Basis Sets}{74}{subsection.2.33}% 
+\contentsline {subsection}{\numberline {2.34}Superposition Principle 2: Expectation Values}{75}{subsection.2.34}% 
+\contentsline {subsection}{\numberline {2.35}Superposition Principle 3: Example}{76}{subsection.2.35}% 
+\contentsline {subsection}{\numberline {2.36}Commuting Operators}{77}{subsection.2.36}% 
+\contentsline {subsection}{\numberline {2.37}Time Dependence}{78}{subsection.2.37}% 
+\contentsline {subsection}{\numberline {2.38}Time Dependence Animation}{79}{subsection.2.38}% 
+\contentsline {subsection}{\numberline {2.39}Wavefunction Collapse}{80}{subsection.2.39}% 
+\contentsline {subsection}{\numberline {2.40}Schrodinger's Cat}{81}{subsection.2.40}% 
+\contentsline {subsection}{\numberline {2.41}Correspondence Principle}{82}{subsection.2.41}% 
+\contentsline {subsection}{\numberline {2.42}Harmonic Oscillator Model}{83}{subsection.2.42}% 
+\contentsline {subsection}{\numberline {2.43}Classical Harmonic Oscillator 1: Trajectory}{84}{subsection.2.43}% 
+\contentsline {subsection}{\numberline {2.44}Classical Harmonic Oscillator 2: Energy}{85}{subsection.2.44}% 
+\contentsline {subsection}{\numberline {2.45}Reduced Mass}{86}{subsection.2.45}% 
+\contentsline {subsection}{\numberline {2.46}Harmonic Oscillator Energy Levels}{87}{subsection.2.46}% 
+\contentsline {subsection}{\numberline {2.47}Diatomic Infrared Spectra}{88}{subsection.2.47}% 
+\contentsline {subsection}{\numberline {2.48}Anharmonicity and Overtones}{89}{subsection.2.48}% 
+\contentsline {subsection}{\numberline {2.49}Harmonic Oscillator Wavefunctions}{90}{subsection.2.49}% 
+\contentsline {subsection}{\numberline {2.50}Even and Odd Functions}{91}{subsection.2.50}% 
+\contentsline {subsection}{\numberline {2.51}Harmonic Oscillator Even and Odd Functions}{92}{subsection.2.51}% 
+\contentsline {subsection}{\numberline {2.52}3-D Harmonic Oscillator}{93}{subsection.2.52}% 
+\contentsline {subsection}{\numberline {2.53}Polyatomic Molecular Vibrations}{94}{subsection.2.53}% 
+\contentsline {subsection}{\numberline {2.54}Rigid Rotor Model}{95}{subsection.2.54}% 
+\contentsline {subsection}{\numberline {2.55}Rotation Operators}{96}{subsection.2.55}% 
+\contentsline {subsection}{\numberline {2.56}Rigid Rotor Energy Levels}{97}{subsection.2.56}% 
+\contentsline {subsection}{\numberline {2.57}Diatomic Microwave Spectra}{98}{subsection.2.57}% 
+\contentsline {subsection}{\numberline {2.58}Rovibrational Energy Levels}{99}{subsection.2.58}% 
+\contentsline {subsection}{\numberline {2.59}Diatomic Rovibrational Spectra}{100}{subsection.2.59}% 
+\contentsline {subsection}{\numberline {2.60}Microwave Spectroscopy Example}{101}{subsection.2.60}% 
+\contentsline {subsection}{\numberline {2.61}Rotation-Vibration Interaction}{102}{subsection.2.61}% 
+\contentsline {subsection}{\numberline {2.62}Centrifugal Distortion}{103}{subsection.2.62}% 
+\contentsline {subsection}{\numberline {2.63}Rigid Rotor Wavefunctions}{104}{subsection.2.63}% 
+\contentsline {subsection}{\numberline {2.64}Orthonormality of Spherical Harmonics}{105}{subsection.2.64}% 
+\contentsline {subsection}{\numberline {2.65}Angular Momentum Eigenvalues}{106}{subsection.2.65}% 
+\contentsline {subsection}{\numberline {2.66}Hydrogen Atom Model}{107}{subsection.2.66}% 
+\contentsline {subsection}{\numberline {2.67}Hydrogen Atom Energy Levels}{108}{subsection.2.67}% 
+\contentsline {subsection}{\numberline {2.68}Hydrogen Atom Radial Wavefunctions}{109}{subsection.2.68}% 
+\contentsline {subsection}{\numberline {2.69}Hydrogen Atom Total Wavefunctions}{110}{subsection.2.69}% 
+\contentsline {subsection}{\numberline {2.70}Hydrogen Atomic Orbital Nodes}{111}{subsection.2.70}% 
+\contentsline {subsection}{\numberline {2.71}Hydrogen Atom Eigenvalues}{112}{subsection.2.71}% 
+\contentsline {subsection}{\numberline {2.72}Hydrogen Atom Radius}{113}{subsection.2.72}% 
+\contentsline {subsection}{\numberline {2.73}Hydrogen Atom Radial Wavefunction Animation}{114}{subsection.2.73}% 
+\contentsline {subsection}{\numberline {2.74}Virial Theorem}{115}{subsection.2.74}% 
+\contentsline {subsection}{\numberline {2.75}Zeeman Effect}{116}{subsection.2.75}% 
+\contentsline {subsection}{\numberline {2.76}Electron Spin}{117}{subsection.2.76}% 
+\contentsline {subsection}{\numberline {2.77}Spin-Orbit Coupling}{118}{subsection.2.77}% 
+\contentsline {subsection}{\numberline {2.78}Hydrogen Atom Term Symbols}{119}{subsection.2.78}% 
+\contentsline {subsection}{\numberline {2.79}Hydrogen Atom Spectrum}{120}{subsection.2.79}% 
+\contentsline {subsection}{\numberline {2.80}Helium Atom Hamiltonian}{121}{subsection.2.80}% 
+\contentsline {subsection}{\numberline {2.81}Variational Principle}{122}{subsection.2.81}% 
+\contentsline {subsection}{\numberline {2.82}Variational Principle Example}{123}{subsection.2.82}% 
+\contentsline {subsection}{\numberline {2.83}Linear Variational Method}{124}{subsection.2.83}% 
+\contentsline {subsection}{\numberline {2.84}Secular Determinant}{125}{subsection.2.84}% 
+\contentsline {subsection}{\numberline {2.85}Linear Variational Example}{126}{subsection.2.85}% 
+\contentsline {subsection}{\numberline {2.86}Perturbation Theory}{127}{subsection.2.86}% 
+\contentsline {subsection}{\numberline {2.87}Perturbation Theory Derivation}{128}{subsection.2.87}% 
+\contentsline {subsection}{\numberline {2.88}Perturbation Theory Example}{129}{subsection.2.88}% 
+\contentsline {subsection}{\numberline {2.89}Atomic Units}{130}{subsection.2.89}% 
+\contentsline {subsection}{\numberline {2.90}Helium Atom Energy Approximations}{131}{subsection.2.90}% 
+\contentsline {subsection}{\numberline {2.91}Hartree-Fock Helium Atom}{132}{subsection.2.91}% 
+\contentsline {subsection}{\numberline {2.92}Hartree-Fock Helium Energy}{133}{subsection.2.92}% 
+\contentsline {subsection}{\numberline {2.93}Antisymmetry Principle}{134}{subsection.2.93}% 
+\contentsline {subsection}{\numberline {2.94}Slater Determinants}{135}{subsection.2.94}% 
+\contentsline {subsection}{\numberline {2.95}Hartree-Fock Atomic Energy}{136}{subsection.2.95}% 
+\contentsline {subsection}{\numberline {2.96}Hartree-Fock Operators}{137}{subsection.2.96}% 
+\contentsline {subsection}{\numberline {2.97}Hartree-Fock-Roothaan Equations}{138}{subsection.2.97}% 
+\contentsline {subsection}{\numberline {2.98}Hartree-Fock Spin}{139}{subsection.2.98}% 
+\contentsline {subsection}{\numberline {2.99}Post Hartree-Fock Methods}{140}{subsection.2.99}% 
+\contentsline {subsection}{\numberline {2.100}Atomic Electron Configurations}{141}{subsection.2.100}% 
+\contentsline {subsection}{\numberline {2.101}Electron Configuration Exceptions}{142}{subsection.2.101}% 
+\contentsline {subsection}{\numberline {2.102}Atomic Term Symbols}{143}{subsection.2.102}% 
+\contentsline {subsection}{\numberline {2.103}Term Symbols Example 1}{144}{subsection.2.103}% 
+\contentsline {subsection}{\numberline {2.104}Term Symbols Example 2}{145}{subsection.2.104}% 
+\contentsline {subsection}{\numberline {2.105}Term Symbols Example 3}{146}{subsection.2.105}% 
+\contentsline {subsection}{\numberline {2.106}Hund's Rules}{147}{subsection.2.106}% 
+\contentsline {subsection}{\numberline {2.107}Atomic Spectra}{148}{subsection.2.107}% 
+\contentsline {subsection}{\numberline {2.108}Hydrogen Molecule Hamiltonian}{149}{subsection.2.108}% 
+\contentsline {subsection}{\numberline {2.109}Born-Oppenheimer Approximation}{150}{subsection.2.109}% 
+\contentsline {subsection}{\numberline {2.110}Hydrogen Molecule-Ion 1: Energy}{151}{subsection.2.110}% 
+\contentsline {subsection}{\numberline {2.111}Hydrogen Molecule-Ion 2: Orbitals}{152}{subsection.2.111}% 
+\contentsline {subsection}{\numberline {2.112}Molecular Orbital Angular Momentum}{153}{subsection.2.112}% 
+\contentsline {subsection}{\numberline {2.113}Molecular Orbital Inversion Symmetry}{154}{subsection.2.113}% 
+\contentsline {subsection}{\numberline {2.114}Hydrogen Molecular Orbital Diagram}{155}{subsection.2.114}% 
+\contentsline {subsection}{\numberline {2.115}LCAO-MO Theory}{156}{subsection.2.115}% 
+\contentsline {subsection}{\numberline {2.116}Diatomic Molecular Orbital Diagrams}{157}{subsection.2.116}% 
+\contentsline {subsection}{\numberline {2.117}Bond Order}{158}{subsection.2.117}% 
+\contentsline {subsection}{\numberline {2.118}Diatomic Term Symbols}{159}{subsection.2.118}% 
+\contentsline {subsection}{\numberline {2.119}Total Wavefunction Symmetry}{160}{subsection.2.119}% 
+\contentsline {subsection}{\numberline {2.120}sp Hybridization}{161}{subsection.2.120}% 
+\contentsline {subsection}{\numberline {2.121}sp2 Hybridization}{162}{subsection.2.121}% 
+\contentsline {subsection}{\numberline {2.122}sp3 Hybridization}{163}{subsection.2.122}% 
+\contentsline {subsection}{\numberline {2.123}Lone Pair Hybridization}{164}{subsection.2.123}% 
+\contentsline {subsection}{\numberline {2.124}Walsh Diagrams}{165}{subsection.2.124}% 
+\contentsline {subsection}{\numberline {2.125}Huckel Theory}{166}{subsection.2.125}% 
+\contentsline {subsection}{\numberline {2.126}Pi Resonance}{167}{subsection.2.126}% 
+\contentsline {subsection}{\numberline {2.127}Aromaticity}{168}{subsection.2.127}% 
+\contentsline {subsection}{\numberline {2.128}Symmetry Websites}{169}{subsection.2.128}% 
+\contentsline {subsection}{\numberline {2.129}Symmetry Operations}{170}{subsection.2.129}% 
+\contentsline {subsection}{\numberline {2.130}Symmetry Elements}{171}{subsection.2.130}% 
+\contentsline {subsection}{\numberline {2.131}Groups}{172}{subsection.2.131}% 
+\contentsline {subsection}{\numberline {2.132}Point Groups}{173}{subsection.2.132}% 
+\contentsline {subsection}{\numberline {2.133}Point Group Examples}{174}{subsection.2.133}% 
+\contentsline {subsection}{\numberline {2.134}Determining Point Groups}{175}{subsection.2.134}% 
+\contentsline {subsection}{\numberline {2.135}Group Multiplication Tables}{176}{subsection.2.135}% 
+\contentsline {subsection}{\numberline {2.136}Symmetry Operator Matrices}{177}{subsection.2.136}% 
+\contentsline {subsection}{\numberline {2.137}Irreducible Representations}{178}{subsection.2.137}% 
+\contentsline {subsection}{\numberline {2.138}Character Tables 1: Abelian}{179}{subsection.2.138}% 
+\contentsline {subsection}{\numberline {2.139}Character Tables 2: Non-Abelian}{180}{subsection.2.139}% 
+\contentsline {subsection}{\numberline {2.140}Determining Irreps}{181}{subsection.2.140}% 
+\contentsline {subsection}{\numberline {2.141}Generating Operators}{182}{subsection.2.141}% 
+\contentsline {subsection}{\numberline {2.142}Irrep Direct Products}{183}{subsection.2.142}% 
+\contentsline {subsection}{\numberline {2.143}Symmetry IR / Raman Activity}{184}{subsection.2.143}% 
+\contentsline {subsection}{\numberline {2.144}Nuclear Spin}{185}{subsection.2.144}% 
+\contentsline {subsection}{\numberline {2.145}Nuclear Magnetic Dipole}{186}{subsection.2.145}% 
+\contentsline {subsection}{\numberline {2.146}Nuclear Magnetic Resonance}{187}{subsection.2.146}% 
+\contentsline {subsection}{\numberline {2.147}NMR Spectrometer}{188}{subsection.2.147}% 
+\contentsline {subsection}{\numberline {2.148}Magnetic Shielding}{189}{subsection.2.148}% 
+\contentsline {subsection}{\numberline {2.149}Chemical Shift}{190}{subsection.2.149}% 
+\contentsline {subsection}{\numberline {2.150}Spin-Spin Coupling}{191}{subsection.2.150}% 
+\contentsline {subsection}{\numberline {2.151}First Order Spectra}{192}{subsection.2.151}% 
+\contentsline {subsection}{\numberline {2.152}Chemical Equivalence}{193}{subsection.2.152}% 
+\contentsline {subsection}{\numberline {2.153}N+1 Rule}{194}{subsection.2.153}% 
+\contentsline {subsection}{\numberline {2.154}Second Order Spectra}{195}{subsection.2.154}% 
+\contentsline {subsection}{\numberline {2.155}Particle in a Ring Model}{196}{subsection.2.155}% 
+\contentsline {subsection}{\numberline {2.156}Particle in a Ring Energies}{197}{subsection.2.156}% 
+\contentsline {subsection}{\numberline {2.157}Particle in a Ring Wavefunctions}{198}{subsection.2.157}% 
+\contentsline {subsection}{\numberline {2.158}Huckel's Rule}{199}{subsection.2.158}% 
+\contentsline {subsection}{\numberline {2.159}Aromatic UV-Vis Spectra}{200}{subsection.2.159}% 
+\contentsline {subsection}{\numberline {2.160}Particle in a Ring Eigenvalues}{201}{subsection.2.160}% 
+\contentsline {section}{\numberline {3}Chemical Thermodynamics }{202}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Introduction}{206}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Ideal Gas Equation}{207}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}van der Waals Gas Equation}{208}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Virial Equation of State}{209}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}Gas Equation Example}{210}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.6}Gas Interaction Functions}{211}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}Critical Point}{212}{subsection.3.7}% 
+\contentsline {subsection}{\numberline {3.8}Reduced Properties}{213}{subsection.3.8}% 
+\contentsline {subsection}{\numberline {3.9}Energy Quantization}{214}{subsection.3.9}% 
+\contentsline {subsection}{\numberline {3.10}Boltzmann Factor}{215}{subsection.3.10}% 
+\contentsline {subsection}{\numberline {3.11}Partition Function}{216}{subsection.3.11}% 
+\contentsline {subsection}{\numberline {3.12}Ensemble Energy}{217}{subsection.3.12}% 
+\contentsline {subsection}{\numberline {3.13}Ensemble Energy Example}{218}{subsection.3.13}% 
+\contentsline {subsection}{\numberline {3.14}Molecular Energy Levels}{219}{subsection.3.14}% 
+\contentsline {subsection}{\numberline {3.15}Translational Partition Function}{220}{subsection.3.15}% 
+\contentsline {subsection}{\numberline {3.16}Rotational Partition Function}{221}{subsection.3.16}% 
+\contentsline {subsection}{\numberline {3.17}Vibrational Partition Function}{222}{subsection.3.17}% 
+\contentsline {subsection}{\numberline {3.18}Electronic Partition Function}{223}{subsection.3.18}% 
+\contentsline {subsection}{\numberline {3.19}Molecular Partition Function}{224}{subsection.3.19}% 
+\contentsline {subsection}{\numberline {3.20}System Partition Function}{225}{subsection.3.20}% 
+\contentsline {subsection}{\numberline {3.21}Statistical Molecular Energy}{226}{subsection.3.21}% 
+\contentsline {subsection}{\numberline {3.22}Molecular Energy Example}{227}{subsection.3.22}% 
+\contentsline {subsection}{\numberline {3.23}First Law}{228}{subsection.3.23}% 
+\contentsline {subsection}{\numberline {3.24}Pressure-Volume Work}{229}{subsection.3.24}% 
+\contentsline {subsection}{\numberline {3.25}State and Path Functions}{230}{subsection.3.25}% 
+\contentsline {subsection}{\numberline {3.26}Reversible Processes}{231}{subsection.3.26}% 
+\contentsline {subsection}{\numberline {3.27}Isothermal Processes}{232}{subsection.3.27}% 
+\contentsline {subsection}{\numberline {3.28}Adiabatic Processes}{233}{subsection.3.28}% 
+\contentsline {subsection}{\numberline {3.29}Adiabatic / Isothermal Comparison}{234}{subsection.3.29}% 
+\contentsline {subsection}{\numberline {3.30}Statistical Heat and Work}{235}{subsection.3.30}% 
+\contentsline {subsection}{\numberline {3.31}Statistical Pressure}{236}{subsection.3.31}% 
+\contentsline {subsection}{\numberline {3.32}Enthalpy}{237}{subsection.3.32}% 
+\contentsline {subsection}{\numberline {3.33}Enthalpy Example}{238}{subsection.3.33}% 
+\contentsline {subsection}{\numberline {3.34}Heat Capacity}{239}{subsection.3.34}% 
+\contentsline {subsection}{\numberline {3.35}Transition Enthalpy}{240}{subsection.3.35}% 
+\contentsline {subsection}{\numberline {3.36}Reaction Enthalpy}{241}{subsection.3.36}% 
+\contentsline {subsection}{\numberline {3.37}Hess's Law}{242}{subsection.3.37}% 
+\contentsline {subsection}{\numberline {3.38}Formation Enthalpy}{243}{subsection.3.38}% 
+\contentsline {subsection}{\numberline {3.39}Standard Reaction Enthalpy}{244}{subsection.3.39}% 
+\contentsline {subsection}{\numberline {3.40}Enthalpy Temperature Dependence}{245}{subsection.3.40}% 
+\contentsline {subsection}{\numberline {3.41}Spontaneous Processes}{246}{subsection.3.41}% 
+\contentsline {subsection}{\numberline {3.42}Entropy}{247}{subsection.3.42}% 
+\contentsline {subsection}{\numberline {3.43}Expansion Entropy}{248}{subsection.3.43}% 
+\contentsline {subsection}{\numberline {3.44}Second Law}{249}{subsection.3.44}% 
+\contentsline {subsection}{\numberline {3.45}Heat Flow Direction}{250}{subsection.3.45}% 
+\contentsline {subsection}{\numberline {3.46}Degenerate Entropy}{251}{subsection.3.46}% 
+\contentsline {subsection}{\numberline {3.47}Gibbs Entropy}{252}{subsection.3.47}% 
+\contentsline {subsection}{\numberline {3.48}Statistical Entropy}{253}{subsection.3.48}% 
+\contentsline {subsection}{\numberline {3.49}Reversible Entropy}{254}{subsection.3.49}% 
+\contentsline {subsection}{\numberline {3.50}Heat Engines}{255}{subsection.3.50}% 
+\contentsline {subsection}{\numberline {3.51}Entropy Temp Dependence 1}{256}{subsection.3.51}% 
+\contentsline {subsection}{\numberline {3.52}Entropy Temp Dependence 2}{257}{subsection.3.52}% 
+\contentsline {subsection}{\numberline {3.53}Third Law}{258}{subsection.3.53}% 
+\contentsline {subsection}{\numberline {3.54}Transition Entropy}{259}{subsection.3.54}% 
+\contentsline {subsection}{\numberline {3.55}Debye T3 Law}{260}{subsection.3.55}% 
+\contentsline {subsection}{\numberline {3.56}Calorimetric Entropy}{261}{subsection.3.56}% 
+\contentsline {subsection}{\numberline {3.57}Statistical Entropy Example}{262}{subsection.3.57}% 
+\contentsline {subsection}{\numberline {3.58}Residual Entropy}{263}{subsection.3.58}% 
+\contentsline {subsection}{\numberline {3.59}Reaction Entropy}{264}{subsection.3.59}% 
+\contentsline {subsection}{\numberline {3.60}Helmholtz Energy}{265}{subsection.3.60}% 
+\contentsline {subsection}{\numberline {3.61}Gibbs Energy}{266}{subsection.3.61}% 
+\contentsline {subsection}{\numberline {3.62}Natural Variables}{267}{subsection.3.62}% 
+\contentsline {subsection}{\numberline {3.63}Maxwell Relations 1: Concept}{268}{subsection.3.63}% 
+\contentsline {subsection}{\numberline {3.64}Maxwell Relations 2: Summary}{269}{subsection.3.64}% 
+\contentsline {subsection}{\numberline {3.65}Maxwell Relations 3: Example}{270}{subsection.3.65}% 
+\contentsline {subsection}{\numberline {3.66}Standard Entropy Correction}{271}{subsection.3.66}% 
+\contentsline {subsection}{\numberline {3.67}Gibbs-Helmholtz Equation}{272}{subsection.3.67}% 
+\contentsline {subsection}{\numberline {3.68}Fugacity}{273}{subsection.3.68}% 
+\contentsline {subsection}{\numberline {3.69}Fugacity Coefficient}{274}{subsection.3.69}% 
+\contentsline {subsection}{\numberline {3.70}Phase Diagrams}{275}{subsection.3.70}% 
+\contentsline {subsection}{\numberline {3.71}Gibbs Energy of Phases}{276}{subsection.3.71}% 
+\contentsline {subsection}{\numberline {3.72}Chemical Potential}{277}{subsection.3.72}% 
+\contentsline {subsection}{\numberline {3.73}Clapeyron Equation}{278}{subsection.3.73}% 
+\contentsline {subsection}{\numberline {3.74}Clausius-Clapeyron Equation}{279}{subsection.3.74}% 
+\contentsline {subsection}{\numberline {3.75}Statistical Chemical Potential}{280}{subsection.3.75}% 
+\contentsline {subsection}{\numberline {3.76}Partial Molar Quantities}{281}{subsection.3.76}% 
+\contentsline {subsection}{\numberline {3.77}Gibbs-Duhem Equation}{282}{subsection.3.77}% 
+\contentsline {subsection}{\numberline {3.78}Solution Chemical Potential}{283}{subsection.3.78}% 
+\contentsline {subsection}{\numberline {3.79}Raoult's Law}{284}{subsection.3.79}% 
+\contentsline {subsection}{\numberline {3.80}Pressure-Composition Diagrams}{285}{subsection.3.80}% 
+\contentsline {subsection}{\numberline {3.81}Temperature-Composition Diagrams}{286}{subsection.3.81}% 
+\contentsline {subsection}{\numberline {3.82}Mixing Energy}{287}{subsection.3.82}% 
+\contentsline {subsection}{\numberline {3.83}Henry's Law}{288}{subsection.3.83}% 
+\contentsline {subsection}{\numberline {3.84}Activity}{289}{subsection.3.84}% 
+\contentsline {subsection}{\numberline {3.85}Standard Activity}{290}{subsection.3.85}% 
+\contentsline {subsection}{\numberline {3.86}Molarity and Molality}{291}{subsection.3.86}% 
+\contentsline {subsection}{\numberline {3.87}Non-Volatile Activity}{292}{subsection.3.87}% 
+\contentsline {subsection}{\numberline {3.88}Colligative Properties}{293}{subsection.3.88}% 
+\contentsline {subsection}{\numberline {3.89}Freezing Point Depression}{294}{subsection.3.89}% 
+\contentsline {subsection}{\numberline {3.90}Osmotic Pressure}{295}{subsection.3.90}% 
+\contentsline {subsection}{\numberline {3.91}Electrolyte Activity}{296}{subsection.3.91}% 
+\contentsline {subsection}{\numberline {3.92}Debye-Huckel Law}{297}{subsection.3.92}% 
+\contentsline {subsection}{\numberline {3.93}Extent of Reaction}{298}{subsection.3.93}% 
+\contentsline {subsection}{\numberline {3.94}Equilibrium Constant}{299}{subsection.3.94}% 
+\contentsline {subsection}{\numberline {3.95}Le Chatalier's Principle}{300}{subsection.3.95}% 
+\contentsline {subsection}{\numberline {3.96}Concentration Equilibrium Constant}{301}{subsection.3.96}% 
+\contentsline {subsection}{\numberline {3.97}Gibbs Energy of Reaction}{302}{subsection.3.97}% 
+\contentsline {subsection}{\numberline {3.98}Equilibrium Example}{303}{subsection.3.98}% 
+\contentsline {subsection}{\numberline {3.99}Reaction Direction}{304}{subsection.3.99}% 
+\contentsline {subsection}{\numberline {3.100}Reaction Spontaneity}{305}{subsection.3.100}% 
+\contentsline {subsection}{\numberline {3.101}Van't Hoff Equation}{306}{subsection.3.101}% 
+\contentsline {subsection}{\numberline {3.102}Fugacity Equilibrium Constant}{307}{subsection.3.102}% 
+\contentsline {subsection}{\numberline {3.103}Activity Equilibrium Constant}{308}{subsection.3.103}% 
+\contentsline {subsection}{\numberline {3.104}Condensed Phase Activity}{309}{subsection.3.104}% 
+\contentsline {subsection}{\numberline {3.105}Electrochemical Cells}{310}{subsection.3.105}% 
+\contentsline {subsection}{\numberline {3.106}Half Cell Reactions}{311}{subsection.3.106}% 
+\contentsline {subsection}{\numberline {3.107}Cell Diagrams}{312}{subsection.3.107}% 
+\contentsline {subsection}{\numberline {3.108}Electromotive Force (EMF)}{313}{subsection.3.108}% 
+\contentsline {subsection}{\numberline {3.109}Nernst Equation}{314}{subsection.3.109}% 
+\contentsline {subsection}{\numberline {3.110}Standard Reduction Potential}{315}{subsection.3.110}% 
+\contentsline {subsection}{\numberline {3.111}Electrochemistry Example}{316}{subsection.3.111}% 
+\contentsline {subsection}{\numberline {3.112}Electrochemical Enthalpy and Entropy}{317}{subsection.3.112}% 
+\contentsline {subsection}{\numberline {3.113}Ionic Gibbs Energy}{318}{subsection.3.113}% 
+\contentsline {subsection}{\numberline {3.114}Solubility Product}{319}{subsection.3.114}% 
+\contentsline {subsection}{\numberline {3.115}Batteries}{320}{subsection.3.115}% 
+\contentsline {section}{\numberline {4}Chemical Kinetics }{321}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Introduction}{322}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Average Kinetic Energy}{323}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Average Velocity}{324}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Maxwell-Boltzmann Distribution}{325}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Mean Free Path}{326}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Total Collision Rate}{327}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {4.7}Reaction Rates}{328}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {4.8}Rate Laws}{329}{subsection.4.8}% 
+\contentsline {subsection}{\numberline {4.9}First Order Reactions}{330}{subsection.4.9}% 
+\contentsline {subsection}{\numberline {4.10}Second Order Reactions}{331}{subsection.4.10}% 
+\contentsline {subsection}{\numberline {4.11}Half Life}{332}{subsection.4.11}% 
+\contentsline {subsection}{\numberline {4.12}Finding Rate Laws}{333}{subsection.4.12}% 
+\contentsline {subsection}{\numberline {4.13}Reversible Reactions}{334}{subsection.4.13}% 
+\contentsline {subsection}{\numberline {4.14}Activation Energy}{335}{subsection.4.14}% 
+\contentsline {subsection}{\numberline {4.15}Reaction Coordinates}{336}{subsection.4.15}% 
+\contentsline {subsection}{\numberline {4.16}Reaction Mechanisms}{337}{subsection.4.16}% 
+\contentsline {subsection}{\numberline {4.17}Detailed Balance}{338}{subsection.4.17}% 
+\contentsline {subsection}{\numberline {4.18}Rate-Determining Step}{339}{subsection.4.18}% 
+\contentsline {subsection}{\numberline {4.19}Steady-State Approximation}{340}{subsection.4.19}% 
+\contentsline {subsection}{\numberline {4.20}Unimolecular Reactions}{341}{subsection.4.20}% 
+\contentsline {subsection}{\numberline {4.21}Catalysis}{342}{subsection.4.21}% 
+\contentsline {subsection}{\numberline {4.22}Michaelis-Menton Mechanism}{343}{subsection.4.22}% 
+\contentsline {section}{\numberline {5}Computational Chemistry }{344}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Introduction}{346}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}XYZ File Format}{347}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}PDB File Format}{348}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Avogadro and VMD}{349}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}Drawing Molecules}{350}{subsection.5.5}% 
+\contentsline {subsection}{\numberline {5.6}Python and Jupyter}{351}{subsection.5.6}% 
+\contentsline {subsection}{\numberline {5.7}Bond Lengths}{352}{subsection.5.7}% 
+\contentsline {subsection}{\numberline {5.8}Covalent Radius}{353}{subsection.5.8}% 
+\contentsline {subsection}{\numberline {5.9}Bond Angles}{354}{subsection.5.9}% 
+\contentsline {subsection}{\numberline {5.10}Torsion Angles}{355}{subsection.5.10}% 
+\contentsline {subsection}{\numberline {5.11}Z-Matrix Format}{356}{subsection.5.11}% 
+\contentsline {subsection}{\numberline {5.12}Out-of-Plane Angles}{357}{subsection.5.12}% 
+\contentsline {subsection}{\numberline {5.13}Center of Mass}{358}{subsection.5.13}% 
+\contentsline {subsection}{\numberline {5.14}Moment of Inertia}{359}{subsection.5.14}% 
+\contentsline {subsection}{\numberline {5.15}Rotational Constants}{360}{subsection.5.15}% 
+\contentsline {subsection}{\numberline {5.16}Energy Functions}{361}{subsection.5.16}% 
+\contentsline {subsection}{\numberline {5.17}Molecular Mechanics}{362}{subsection.5.17}% 
+\contentsline {subsection}{\numberline {5.18}Force Field Parameters}{363}{subsection.5.18}% 
+\contentsline {subsection}{\numberline {5.19}Atom Types}{364}{subsection.5.19}% 
+\contentsline {subsection}{\numberline {5.20}MM Bond Stretch Terms}{365}{subsection.5.20}% 
+\contentsline {subsection}{\numberline {5.21}MM Angle Bend Terms}{366}{subsection.5.21}% 
+\contentsline {subsection}{\numberline {5.22}MM Torsion Strain Terms}{367}{subsection.5.22}% 
+\contentsline {subsection}{\numberline {5.23}MM Out-of-Plane Terms}{368}{subsection.5.23}% 
+\contentsline {subsection}{\numberline {5.24}MM van der Waals Terms}{369}{subsection.5.24}% 
+\contentsline {subsection}{\numberline {5.25}MM Electrostatics Terms}{370}{subsection.5.25}% 
+\contentsline {subsection}{\numberline {5.26}MM Cross Terms}{371}{subsection.5.26}% 
+\contentsline {subsection}{\numberline {5.27}MM Program}{372}{subsection.5.27}% 
+\contentsline {subsection}{\numberline {5.28}Energy Gradient}{373}{subsection.5.28}% 
+\contentsline {subsection}{\numberline {5.29}Energy Minimization}{374}{subsection.5.29}% 
+\contentsline {subsection}{\numberline {5.30}Steepest Descent}{375}{subsection.5.30}% 
+\contentsline {subsection}{\numberline {5.31}Conjugate Gradient}{376}{subsection.5.31}% 
+\contentsline {subsection}{\numberline {5.32}Ensemble Properties}{377}{subsection.5.32}% 
+\contentsline {subsection}{\numberline {5.33}Thermal Energy}{378}{subsection.5.33}% 
+\contentsline {subsection}{\numberline {5.34}Boundary Conditions}{379}{subsection.5.34}% 
+\contentsline {subsection}{\numberline {5.35}Molecular Dynamics}{380}{subsection.5.35}% 
+\contentsline {subsection}{\numberline {5.36}MD Program}{381}{subsection.5.36}% 
+\contentsline {subsection}{\numberline {5.37}Monte Carlo}{382}{subsection.5.37}% 
+\contentsline {subsection}{\numberline {5.38}Metropolis Monte Carlo}{383}{subsection.5.38}% 
+\contentsline {subsection}{\numberline {5.39}MC Program}{384}{subsection.5.39}% 
+\contentsline {subsection}{\numberline {5.40}Simulated Annealing}{385}{subsection.5.40}% 
+\contentsline {subsection}{\numberline {5.41}Molecular Hamiltonian}{386}{subsection.5.41}% 
+\contentsline {subsection}{\numberline {5.42}Atomic Units}{387}{subsection.5.42}% 
+\contentsline {subsection}{\numberline {5.43}Born-Oppenheimer Approximation}{388}{subsection.5.43}% 
+\contentsline {subsection}{\numberline {5.44}Spin Orbitals}{389}{subsection.5.44}% 
+\contentsline {subsection}{\numberline {5.45}Hartree Product}{390}{subsection.5.45}% 
+\contentsline {subsection}{\numberline {5.46}Anti-Symmetry Principle}{391}{subsection.5.46}% 
+\contentsline {subsection}{\numberline {5.47}Slater Determinants}{392}{subsection.5.47}% 
+\contentsline {subsection}{\numberline {5.48}Excited Determinants}{393}{subsection.5.48}% 
+\contentsline {subsection}{\numberline {5.49}N-Electron Wavefunctions}{394}{subsection.5.49}% 
+\contentsline {subsection}{\numberline {5.50}Restricted Determinants}{395}{subsection.5.50}% 
+\contentsline {subsection}{\numberline {5.51}One-Electron Integrals}{396}{subsection.5.51}% 
+\contentsline {subsection}{\numberline {5.52}Two-Electron Integrals}{397}{subsection.5.52}% 
+\contentsline {subsection}{\numberline {5.53}Spin Integration}{398}{subsection.5.53}% 
+\contentsline {subsection}{\numberline {5.54}Hartree-Fock Approximation}{399}{subsection.5.54}% 
+\contentsline {subsection}{\numberline {5.55}Hartree-Fock Energy}{400}{subsection.5.55}% 
+\contentsline {subsection}{\numberline {5.56}Coulomb and Exchange Operators}{401}{subsection.5.56}% 
+\contentsline {subsection}{\numberline {5.57}Fock Operator}{402}{subsection.5.57}% 
+\contentsline {subsection}{\numberline {5.58}Functional Variation}{403}{subsection.5.58}% 
+\contentsline {subsection}{\numberline {5.59}Minimum Determinant Energy}{404}{subsection.5.59}% 
+\contentsline {subsection}{\numberline {5.60}Canonical Hartree-Fock Equations}{405}{subsection.5.60}% 
+\contentsline {subsection}{\numberline {5.61}Koopman's Theorem}{406}{subsection.5.61}% 
+\contentsline {subsection}{\numberline {5.62}Restricted Hartree-Fock}{407}{subsection.5.62}% 
+\contentsline {subsection}{\numberline {5.63}Hartree-Fock-Roothaan Equations}{408}{subsection.5.63}% 
+\contentsline {subsection}{\numberline {5.64}Density Matrix}{409}{subsection.5.64}% 
+\contentsline {subsection}{\numberline {5.65}Fock Matrix}{410}{subsection.5.65}% 
+\contentsline {subsection}{\numberline {5.66}Orthogonalization}{411}{subsection.5.66}% 
+\contentsline {subsection}{\numberline {5.67}Self-Consistent Field}{412}{subsection.5.67}% 
+\contentsline {subsection}{\numberline {5.68}Population Analysis}{413}{subsection.5.68}% 

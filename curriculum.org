@@ -1,0 +1,4247 @@
+#+TITLE: Master Curriculum
+#+TODO: pending ongoing | DONE
+* Datacamp
+** [#A] Finish Data scientist track [0/6] [0%]
+*** ongoing Manipulating DataFrames with pandas
+*** pending Merging DataFrames with pandas
+*** pending Analyzing policy activity with pandas
+*** pending Joining Data in SQL
+*** pending Machine Learning with Tree Based models in Python
+*** pending Machine Learning with the experts
+** Statistics [0/7]
+*** pending Foundations of Probability
+*** pending Experimental Design in Python
+*** pending Statistical Simulation in Python
+*** pending Introduction to Linear Modeling
+*** pending Introduction to Time Series Analysis
+*** pending Network Analysis in Python Part2
+*** pending Customer Analytics & A/B Testing
+** Machine Learning
+*** NLP
+**** Building Chatbots
+**** Sentiment analysis
+**** Feature Engineering for NLP in Python
+*** Learning Algorithms
+**** Ensemble Methods
+**** Forecasting Using ARIMA Models
+**** Linear Classifiers
+**** Convolutional Neural Networks
+**** Machine Learning for Time Series
+**** Generalized Linear Models
+**** Clustering Methods
+*** Libraries
+**** XGBoost
+**** PyTorch
+**** Tensorflow
+**** Spark
+*** Model Optimization and Validation
+**** Hyperparamter Tuning
+**** Model Validation
+**** Designing Machine Learning Workflows
+*** Data processing for Model building
+**** Preprocessing for Machine Learning
+**** Dimensionality Reduction
+**** Feature Engineering for Machine Learning
+*** Big Data
+**** Big Data Fundamentals via PySpark
+**** Building Recommandation Engines with PySpark
+*** Applied courses
+**** Supply Chain Analytics
+**** Machine Learning for Finance
+**** Fraud detection
+**** Winning a Kaggle Competition
+**** Customer Segmentation
+**** Foundations of Predictive Analytics I + II
+**** HR analytics
+* nanohub-U
+* TMP Chem
+:PROPERTIES:
+:EXPORT_FILE_NAME: TMP_Chem_Notebook
+:EXPORT_TITLE: TMP Chem Notebook
+:EXPORT_OPTIONS: toc:nil todo:nil date:nil author:nil stat:nil 
+:END:
+#+latex_header:\usepackage{minitoc}
+#+LATEX: \pagebreak[4] \setcounter{tocdepth}{1} \tableofcontents \pagebreak[4] \setcounter{tocdepth}{2} \dosecttoc
+** Math [0/33] [0%]
+#+LATEX: \secttoc \pagebreak[4]
+#+BEGIN_SRC shell :results raw :exports none :eval never
+text="PChem Math "
+url="https://www.youtube.com/watch?v=c9V9nrHAnM0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=1"
+python tmp_to_org_scraper_images.py $url "$text" "Math"
+#+END_SRC
+
+#+BEGIN_SRC shell :results raw :exports results :eval no-export
+prefix="Math"
+python make_org_chapter.py "$prefix"
+#+END_SRC
+
+#+RESULTS:
+*** pending Introduction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/0.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=c9V9nrHAnM0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=1][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Polynomial Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/1.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XxlK_-5dm5o&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=2][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Polynomial Roots
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/2.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=_iV237zg4e8&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=3][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Exponent and Logarithm Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/3.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cz7WGqLeuoo&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=4][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Complex Numbers
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/4.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DLtctdjNPCQ&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=5][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Trigonometric Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/5.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=4JQzoAzAmK0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=6][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spherical and Polar Coordinates
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/6.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=V4tTa1U7LQY&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=7][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Derivative Definition
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/7.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=IQ49RIfYTok&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=8][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Basic Derivatives
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/8.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=axlNlPUi9-s&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=9][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Derivative Rules
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/9.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=e_pmh4FodfQ&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=10][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Repeated Derivatives
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/10.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=SLumbcwwHcA&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=11][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Function Critical Points
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/11.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gwslyJxSDXg&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=12][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Taylor Series
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/12.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WEWsB9TEBnE&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=13][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Integral Definition
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/13.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=uAM3t-M6Orc&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=14][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Basic Integrals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/14.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=rr44cGT9Iuo&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=15][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Integral Rules
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/15.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3ob5HXrAP2M&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=16][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Partial Derivatives
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/16.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=iMETqSpFvS0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=17][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Repeated Partial Derivatives
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/17.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XEWcwkAHnXA&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=18][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Multi-Dimensional Integrals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/18.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=NRYShZwT4y4&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=19][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Volume Elements
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/19.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8fuHIQsKzmc&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=20][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Euler's Formula
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/20.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=HD7m1tAYzt0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=21][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Vectors
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/21.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZgU-uQ6HHuM&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=22][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrices
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/22.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=CiDKthtEu9s&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=23][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Determinants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/23.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=My7FrGrv0po&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=24][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/24.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=VsNDbRtHOdQ&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=25][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Eigenvalues and Eigenvectors
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/25.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gh_45fnIfFc&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=26][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Discrete Dirac Notation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/26.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=nsh-3ZJHjG0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=27][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/27.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=I0FUJUeyPEE&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=28][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Unitary Transformation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/28.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=zQMUmaTxrbw&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=29][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hermitian Matrices
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/29.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=NY5XHdGtuH4&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=30][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Diagonalization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/30.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=4JLbuE9ColQ&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=31][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Commutators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/31.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XRCELXxieCQ&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=32][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Matrix Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/Math/32.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gQpLoFhbGA0&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=33][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+
+** Quantum Chemistry [0/160] [0%]
+#+LATEX: \secttoc \pagebreak[4]
+#+BEGIN_SRC shell :results raw :exports none :eval no-export
+text="Quantum Chemistry "
+url="https://www.youtube.com/watch?v=HC81oYe43DI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh"
+python tmp_to_org_scraper_images.py $url "$text" "quantum"
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell :results raw :exports results :eval no-export
+prefix="quantum"
+python make_org_chapter.py "$prefix"
+#+END_SRC
+
+#+RESULTS:
+*** pending Introduction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/0.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=HC81oYe43DI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=1][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Blackbody Radiation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/1.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=_r5TtnjRzaY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=2][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Photoelectric Effect
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/2.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7i6toEAZiV0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=3][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rydberg Formula
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/3.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DLmnh74MfSA&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=4][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Bohr Hydrogen Model 1: Radius
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/4.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=A6YZ32W7_Ms&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=5][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Bohr Hydrogen Model 2: Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/5.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=rkKhMRD_Lio&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=6][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Wave-Particle Duality
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/6.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=T6PYbgVEHT4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=7][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Uncertainty Principle in Measurement
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/7.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cZbVl14wNkk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=8][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Classical Wave Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/8.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=OpTAXlTVnT4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=9][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Vibrating String
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/9.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=wtcdLjAyEBM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=10][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Vibrating String Animation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/10.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=yNJ06JQDGEM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=11][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Schrodinger Equation "Derivation"
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/11.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=CSCSGFbt_Y0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=12][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/12.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ktrJ-sqaaBs&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=13][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Eigenvalues and Eigenfunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/13.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cUUFIk0ISuY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=14][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Interpreting the Wavefunction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/14.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=9TfQUie_OTM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=15][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Box
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/15.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=uK60QAKooyM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=16][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Normalization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/16.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=EK6C6mpxP-g&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=17][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Box Wavefunction Plots
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/17.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3p9jHJYCjII&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=18][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending UV-Vis Spectra of Polyenes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/18.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WRYSVj-FD48&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=19][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Average Position
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/19.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=sCeUFzxowuQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=20][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Average Momentum
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/20.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=l4x6gkMxKEA&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=21][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending 3-D Particle in a Box
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/21.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aXiyOUxUJAA&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=22][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Degeneracy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/22.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=vtlgDgHLpfQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=23][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Postulates of Quantum Mechanics 1: Wavefunction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/23.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ppvk2hSYcG4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=24][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Postulates of Quantum Mechanics 2: Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/24.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Kk1Gf-T2a-M&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=25][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Postulates of Quantum Mechanics 3: Measurement
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/25.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hLgEO4WlfzU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=26][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Postulates of Quantum Mechanics 4: Expectation Values
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/26.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0H7xbGGBMGc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=27][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Postulates of Quantum Mechanics 5: Schrodinger Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/27.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XjIBIc-Ldok&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=28][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Commutators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/28.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aG_L3gym0uU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=29][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hermitian Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/29.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0Q_KmTOy07E&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=30][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Dirac Notation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/30.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QCiWuNpIjmE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=31][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Orthogonality
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/31.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GHk5C7PNFOc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=32][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Superposition Principle 1: Basis Sets
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/32.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=PHus6stbje0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=33][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Superposition Principle 2: Expectation Values
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/33.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=H7aejrEU8Jo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=34][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Superposition Principle 3: Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/34.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=f65sIWYGUIg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=35][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Commuting Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/35.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jw9BHoYsu9k&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=36][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Time Dependence
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/36.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GI54KUjUGqc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=37][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Time Dependence Animation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/37.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ogMwnS-uQSM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=38][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Wavefunction Collapse
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/38.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=frIyVxcuVHo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=39][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Schrodinger's Cat
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/39.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xoKDuc5uE5s&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=40][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Correspondence Principle
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/40.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1Pd9iyD26i8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=41][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Harmonic Oscillator Model
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/41.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Thy9YXnAY2s&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=42][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Classical Harmonic Oscillator 1: Trajectory
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/42.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QuI3IWlByqo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=43][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Classical Harmonic Oscillator 2: Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/43.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3LxM2VAMVsQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=44][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reduced Mass
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/44.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=iUwBW4e9n6g&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=45][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Harmonic Oscillator Energy Levels
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/45.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GPM9NYCY0f0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=46][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Diatomic Infrared Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/46.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=MkS1J9eq-Eo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=47][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Anharmonicity and Overtones
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/47.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=5oXn8A9K4Mc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=48][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Harmonic Oscillator Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/48.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gKUdaa4HXkI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=49][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Even and Odd Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/49.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DX37ZFyKNKM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=50][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Harmonic Oscillator Even and Odd Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/50.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=2gaYU63kvCI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=51][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending 3-D Harmonic Oscillator
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/51.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aP1WLAua3aU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=52][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Polyatomic Molecular Vibrations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/52.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=y1PGWVN_WxI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=53][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rigid Rotor Model
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/53.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GbWnE4LKOtc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=54][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rotation Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/54.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=2BqdkpI__50&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=55][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rigid Rotor Energy Levels
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/55.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BQfJ3A0eTbA&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=56][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Diatomic Microwave Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/56.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=l-C03vp6gMk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=57][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rovibrational Energy Levels
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/57.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Y7_ADYrKssU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=58][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Diatomic Rovibrational Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/58.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ELf6rzEQ9kI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=59][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Microwave Spectroscopy Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/59.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qiTbuKE55Dk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=60][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rotation-Vibration Interaction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/60.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Lecacm8BBwc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=61][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Centrifugal Distortion
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/61.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=v_BbITtV71o&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=62][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rigid Rotor Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/62.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WRZt0BCotos&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=63][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Orthonormality of Spherical Harmonics
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/63.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=V_pcuYoLxFI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=64][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Angular Momentum Eigenvalues
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/64.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=B82pEpoDE_k&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=65][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Model
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/65.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=phIc-an6B2A&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=66][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Energy Levels
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/66.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=loNZJwRGys0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=67][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Radial Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/67.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WUTgyBruBa8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=68][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Total Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/68.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=40ftYOfsEDU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=69][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atomic Orbital Nodes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/69.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Rr3MGp0ziSo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=70][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Eigenvalues
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/70.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=wJCEskknrtI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=71][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Radius
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/71.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=onmkfIKiReo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=72][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Radial Wavefunction Animation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/72.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=JHZopK6e-tE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=73][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Virial Theorem
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/73.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=9OZ6d3WT_fg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=74][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Zeeman Effect
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/74.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ubv0DTL_0bg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=75][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electron Spin
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/75.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=dRSI4hft0DY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=76][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spin-Orbit Coupling
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/76.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZW9HJRbJHoY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=77][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Term Symbols
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/77.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=KNOKj0ekfdE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=78][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Atom Spectrum
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/78.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QMKpSY5z-N0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=79][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Helium Atom Hamiltonian
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/79.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=KwdrQZlclDk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=80][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Variational Principle
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/80.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=l7n8gQHHFyg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=81][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Variational Principle Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/81.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WJekoIaXrJI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=82][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Linear Variational Method
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/82.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=LQmpuEm778E&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=83][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Secular Determinant
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/83.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XcDDC-gXXDc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=84][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Linear Variational Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/84.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3_KtxQPylVM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=85][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Perturbation Theory
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/85.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Scv--cfY0xw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=86][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Perturbation Theory Derivation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/86.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=49NV66BxE9c&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=87][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Perturbation Theory Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/87.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=B4fpfhCC_cM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=88][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atomic Units
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/88.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=93S-9Izr0nI&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=89][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Helium Atom Energy Approximations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/89.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=tcfNNGGjS2o&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=90][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Helium Atom
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/90.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jRnUX7Z7fsw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=91][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Helium Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/91.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Gd3x46Wth8s&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=92][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Antisymmetry Principle
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/92.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=O62wmfcbL2Q&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=93][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Slater Determinants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/93.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ASPuNKrCzDE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=94][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Atomic Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/94.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aSymTSplN08&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=95][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/95.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZGb68b8wpEQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=96][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock-Roothaan Equations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/96.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bDizx-xbNso&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=97][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Spin
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/97.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=i8PC8ONMrpg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=98][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Post Hartree-Fock Methods
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/98.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=oU1zO2bPPB4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=99][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atomic Electron Configurations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/99.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=owni3aWJowY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=100][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electron Configuration Exceptions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/100.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Z7NbFb0mMTc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=101][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atomic Term Symbols
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/101.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=dhARbw8cdDE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=102][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Term Symbols Example 1
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/102.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=doC9Z2S7lm8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=103][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Term Symbols Example 2
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/103.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Gh6u0ER733w&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=104][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Term Symbols Example 3
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/104.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YyFD3B4gjBk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=105][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hund's Rules
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/105.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=IuCUiazyaHU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=106][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atomic Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/106.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=kee9p1_46Fs&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=107][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Molecule Hamiltonian
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/107.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BBoE6NRRZ8k&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=108][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Born-Oppenheimer Approximation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/108.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=UGB2psWD69s&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=109][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Molecule-Ion 1: Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/109.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cc4CZCjom6A&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=110][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Molecule-Ion 2: Orbitals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/110.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hr05jLHAaLg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=111][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Orbital Angular Momentum
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/111.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=nKALF5BXtbs&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=112][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Orbital Inversion Symmetry
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/112.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Q8ja0Xu8nWQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=113][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hydrogen Molecular Orbital Diagram
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/113.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1-UIdbGY3nQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=114][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending LCAO-MO Theory
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/114.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7ItAyG_m7jA&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=115][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Diatomic Molecular Orbital Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/115.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=k33zQLpCnuM&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=116][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Bond Order
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/116.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Tx-aBZnsjZU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=117][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Diatomic Term Symbols
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/117.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ww6HEEXwrbk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=118][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Total Wavefunction Symmetry
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/118.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=r1bOcVTFaNQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=119][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending sp Hybridization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/119.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=zqiC-rQ-AB4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=120][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending sp2 Hybridization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/120.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YY9vZUdNQt8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=121][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending sp3 Hybridization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/121.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DvQuQHFQ7Uk&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=122][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Lone Pair Hybridization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/122.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BBqpssKI_ms&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=123][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Walsh Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/123.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Y1k85O4r0A0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=124][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Huckel Theory
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/124.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YsRe2PMCbIw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=125][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Pi Resonance
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/125.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=-D28NKL-YGo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=126][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Aromaticity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/126.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jj4h3tLukF4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=127][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Symmetry Websites
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/127.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=yJ1MNWSYGF0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=128][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Symmetry Operations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/128.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Wb8QYcxAqm8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=129][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Symmetry Elements
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/129.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=uariSyfIfS8&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=130][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Groups
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/130.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=JEuZCXnYeA4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=131][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Point Groups
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/131.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cbxKulVtWbU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=132][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Point Group Examples
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/132.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DINEG-MvVps&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=133][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Determining Point Groups
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/133.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=KiQjvUcBVMw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=134][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Group Multiplication Tables
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/134.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=6cmbR3JX64Q&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=135][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Symmetry Operator Matrices
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/135.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QELTJrOFwK0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=136][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Irreducible Representations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/136.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=swtTrTey1oU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=137][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Character Tables 1: Abelian
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/137.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=mRoAvOHcsmo&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=138][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Character Tables 2: Non-Abelian
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/138.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=2Dzv2ZCin54&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=139][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Determining Irreps
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/139.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=wVFR4B0lhSE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=140][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Generating Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/140.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=AAZOH3TSEgw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=141][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Irrep Direct Products
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/141.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1d6peheL0uc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=142][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Symmetry IR / Raman Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/142.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8leQXCTnysY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=143][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Nuclear Spin
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/143.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QNqsU4R6i08&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=144][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Nuclear Magnetic Dipole
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/144.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Mz68lJ24GDU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=145][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Nuclear Magnetic Resonance
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/145.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bB8W4ps7EVc&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=146][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending NMR Spectrometer
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/146.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZfV8nzWN5a0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=147][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Magnetic Shielding
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/147.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=kHcRx9_ZOxg&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=148][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Chemical Shift
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/148.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1escSF1hgwY&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=149][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spin-Spin Coupling
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/149.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jUnV3fGxa_A&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=150][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending First Order Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/150.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Ge6dgdvIiBU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=151][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Chemical Equivalence
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/151.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xX1P2hRBQa0&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=152][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending N+1 Rule
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/152.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=MApd5Om-C4o&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=153][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Second Order Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/153.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=E_FtlUEMz2k&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=154][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Ring Model
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/154.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=adXv23pjsek&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=155][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Ring Energies
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/155.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GdPPboZNmuQ&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=156][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Ring Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/156.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=9-r7cPE6JDE&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=157][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Huckel's Rule
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/157.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jTWN1Qm7UXw&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=158][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Aromatic UV-Vis Spectra
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/158.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cipCzxLfka4&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=159][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Particle in a Ring Eigenvalues
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/quantum/159.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=eLHj4_NAzxU&list=PLm8ZSArAXicL3jKr_0nHHs5TwfhdkMFhh&index=160][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+
+** Chemical Thermodynamics [0/115] [0%]
+#+LATEX: \secttoc \pagebreak[4]
+#+BEGIN_SRC shell :results raw :eval no-export :exports results
+text="nottexttoreplace"
+url="https://www.youtube.com/watch?v=uHWtNyKmbWA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu"
+python tmp_to_org_scraper_images.py $url "$text" "thermo"
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell :results raw :exports results :eval no-export
+prefix="thermo"
+python make_org_chapter.py "$prefix"
+#+END_SRC
+
+#+RESULTS:
+*** pending Introduction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/0.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=uHWtNyKmbWA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=1][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Ideal Gas Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/1.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Mqfqp1nQT5U&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=2][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending van der Waals Gas Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/2.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qUbwWVWZD5Q&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=3][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Virial Equation of State
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/3.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=6OjmYnloSXU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=4][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gas Equation Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/4.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BM0IYQ8Vp_g&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=5][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gas Interaction Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/5.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=OHoWwVGvbZY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=6][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Critical Point
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/6.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=TAGQGMwyX84&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=7][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reduced Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/7.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Iw0qeCdN3SY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=8][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Energy Quantization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/8.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7rWYqVW8GtU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=9][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Boltzmann Factor
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/9.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=T-jvIFm-4ys&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=10][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/10.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ws3RZCvWCD8&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=11][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Ensemble Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/11.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=-PNlToghHqQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=12][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Ensemble Energy Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/12.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1dU39zZ8MYc&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=13][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Energy Levels
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/13.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZJYc9x5tEvQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=14][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Translational Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/14.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=fyfTsQB8y08&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=15][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rotational Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/15.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bO2HOvCl2DE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=16][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Vibrational Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/16.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=1yHg0VQteZE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=17][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electronic Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/17.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jAEPbnWbySQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=18][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/18.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=XeYPy3cIxro&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=19][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending System Partition Function
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/19.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qi8x4KM5bd0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=20][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Molecular Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/20.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gW3Zd4NE_XM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=21][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Energy Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/21.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=tUIvC_E3PVA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=22][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending First Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/22.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=sBF3mwRNeaQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=23][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Pressure-Volume Work
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/23.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WZYoAF_WoJs&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=24][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending State and Path Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/24.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZsEtOzgXx6Q&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=25][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reversible Processes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/25.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=tPAJLMhJmt0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=26][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Isothermal Processes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/26.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=mYo0MEXLelk&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=27][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Adiabatic Processes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/27.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZWKSJxshuDE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=28][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Adiabatic / Isothermal Comparison
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/28.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ySAXJXVKTAE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=29][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Heat and Work
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/29.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=psNvtPqPMfU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=30][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Pressure
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/30.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=snyGRhf_Z80&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=31][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Enthalpy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/31.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=28BQeMki_Uw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=32][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Enthalpy Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/32.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=NnJ9aKyJPpc&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=33][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Heat Capacity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/33.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=IhN7EPWEVjw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=34][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Transition Enthalpy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/34.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YOHME4a4_oE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=35][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Enthalpy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/35.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ikbQKDXhpM8&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=36][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hess's Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/36.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0IFhzCdbSx0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=37][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Formation Enthalpy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/37.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0AaZQ7XFb48&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=38][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Standard Reaction Enthalpy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/38.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BNHorSx1-Ho&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=39][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Enthalpy Temperature Dependence
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/39.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ruX0KCzs9GM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=40][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spontaneous Processes
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/40.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=M34bWzfkaCg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=41][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/41.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=_ezMWAeNmOs&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=42][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Expansion Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/42.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=36h6UyNfX5A&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=43][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Second Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/43.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=PRI0yXM7N1Q&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=44][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Heat Flow Direction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/44.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WtlJyibh1MY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=45][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Degenerate Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/45.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8xGf2vX0Hsw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=46][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/46.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=__EloSJvstM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=47][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/47.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=EwddZeq0MmM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=48][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reversible Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/48.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=sns8ydZc-ek&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=49][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Heat Engines
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/49.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Z4es7wL3B7w&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=50][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Entropy Temp Dependence 1
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/50.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qb2h8Tuqcbs&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=51][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Entropy Temp Dependence 2
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/51.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=zEfd9Z-nDPk&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=52][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Third Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/52.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=lZfF8ZPx7mA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=53][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Transition Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/53.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=c0WKQC2ZoLk&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=54][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Debye T3 Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/54.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=JbsIEOnpfQ8&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=55][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Calorimetric Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/55.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=asFlxBOPApQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=56][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Entropy Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/56.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7UdfNmlTsE4&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=57][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Residual Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/57.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gd_Xyvq5eVA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=58][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/58.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=iJYeBPDBzzA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=59][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Helmholtz Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/59.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=k5yXf-dxoxc&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=60][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/60.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=tvp7erFI-3k&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=61][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Natural Variables
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/61.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=nSTak_qvSp0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=62][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Maxwell Relations 1: Concept
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/62.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=f3W7gVGVOi8&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=63][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Maxwell Relations 2: Summary
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/63.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=F8t2aEf5AsY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=64][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Maxwell Relations 3: Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/64.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=v5UUPOTKrUA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=65][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Standard Entropy Correction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/65.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=HC7C-7rHabU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=66][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs-Helmholtz Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/66.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7EuBgXpekv4&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=67][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Fugacity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/67.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aU1sjlhzazE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=68][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Fugacity Coefficient
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/68.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=wJ3w1Ot0XNo&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=69][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Phase Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/69.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3dhBHmLlsGo&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=70][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs Energy of Phases
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/70.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=5U8ppevtclw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=71][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Chemical Potential
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/71.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=x8Y4g5MdrZM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=72][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Clapeyron Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/72.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GAGLvAPDIKY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=73][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Clausius-Clapeyron Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/73.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=4P7pfc6zahQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=74][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Statistical Chemical Potential
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/74.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=dlZZPygAERI&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=75][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Partial Molar Quantities
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/75.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=FFBnNXHA5zA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=76][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs-Duhem Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/76.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=utfxPRImBgw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=77][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Solution Chemical Potential
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/77.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=PaP66q4mRos&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=78][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Raoult's Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/78.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=9iFNBsEQS1M&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=79][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Pressure-Composition Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/79.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=N_FWAqy8pKU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=80][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Temperature-Composition Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/80.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Xvj-1VdA-lw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=81][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Mixing Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/81.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7JFOwvxW7-I&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=82][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Henry's Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/82.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0Dauv_zapso&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=83][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/83.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=-zITlOwk7_s&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=84][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Standard Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/84.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hXCSeaef4zk&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=85][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molarity and Molality
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/85.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hhBYTagI6QM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=86][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Non-Volatile Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/86.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=KD2OpFS-15c&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=87][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Colligative Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/87.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=CNquzThdQng&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=88][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Freezing Point Depression
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/88.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=JjohkEu8VS0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=89][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Osmotic Pressure
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/89.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=fY2R6Wz1D_M&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=90][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electrolyte Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/90.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bQlcIe-sFB0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=91][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Debye-Huckel Law
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/91.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZqcOLcXcdvc&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=92][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Extent of Reaction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/92.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ENCPapmADtA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=93][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Equilibrium Constant
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/93.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=p0UM6whO4ss&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=94][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Le Chatalier's Principle
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/94.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8QH-a8T9p0M&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=95][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Concentration Equilibrium Constant
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/95.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Oia53yR6i4Q&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=96][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Gibbs Energy of Reaction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/96.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bGTDojmJ7DI&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=97][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Equilibrium Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/97.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=EWQYfkTIscg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=98][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Direction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/98.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=LJxQHGXsd3E&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=99][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Spontaneity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/99.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=lZeg5-0BxKA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=100][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Van't Hoff Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/100.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xqQG2yCb6QQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=101][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Fugacity Equilibrium Constant
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/101.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=-Z0x3ZqrU74&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=102][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Activity Equilibrium Constant
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/102.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ffI8gv4F-ZI&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=103][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Condensed Phase Activity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/103.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jEfAjTdVuPs&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=104][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electrochemical Cells
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/104.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8j2pETtX1d0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=105][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Half Cell Reactions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/105.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=s3Hkxav1cKE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=106][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Cell Diagrams
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/106.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=UjC37UjyDZQ&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=107][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electromotive Force (EMF)
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/107.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=O5-ylz82S6Y&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=108][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Nernst Equation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/108.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=sMGxizd3pX0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=109][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Standard Reduction Potential
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/109.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=LNM6QIlL8gM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=110][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electrochemistry Example
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/110.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Y4tTMGcAqhM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=111][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Electrochemical Enthalpy and Entropy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/111.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=g-Rx-iiQ_cA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=112][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Ionic Gibbs Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/112.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ZikQUXsdA-E&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=113][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Solubility Product
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/113.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=PFVkSfAhHpg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=114][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Batteries
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/thermo/114.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=uWSPFQ89pF4&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=115][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+
+** Chemical Kinetics [0/22] [0%]
+#+LATEX: \secttoc \pagebreak[4]
+
+#+BEGIN_SRC shell :results raw :eval no-export :exports results
+text="nottexttoreplace"
+url="https://www.youtube.com/watch?v=uHWtNyKmbWA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu"
+python tmp_to_org_scraper_images.py $url "$text" "kinetics"
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell :results raw :exports results :eval no-export
+prefix="kinetics"
+python make_org_chapter.py "$prefix"
+#+END_SRC
+
+#+RESULTS:
+*** pending Introduction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/0.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Yu9v6INbr8A&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=116][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Average Kinetic Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/1.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=feECxsmb14Y&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=117][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Average Velocity
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/2.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Tc6ozCSnhpg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=118][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Maxwell-Boltzmann Distribution
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/3.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=azJKKRV5ezU&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=119][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Mean Free Path
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/4.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=gxC9rfV5bbg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=120][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Total Collision Rate
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/5.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=viDlKyNGWKc&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=121][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Rates
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/6.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=aGSNWoczrKY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=122][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rate Laws
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/7.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=lttUNxRwNhk&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=123][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending First Order Reactions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/8.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Kp6NtB7_mQM&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=124][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Second Order Reactions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/9.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=OAnWnOP4tEA&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=125][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Half Life
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/10.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0L0pae3G-t4&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=126][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Finding Rate Laws
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/11.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qxYigS9wjAg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=127][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reversible Reactions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/12.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Z_V-II980fo&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=128][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Activation Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/13.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jkavHaGJG7E&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=129][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Coordinates
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/14.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=guUmPF3ptDE&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=130][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Reaction Mechanisms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/15.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=4WBpU8-to5I&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=131][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Detailed Balance
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/16.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=cddmNsjmyHI&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=132][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rate-Determining Step
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/17.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=y17qBfizD4o&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=133][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Steady-State Approximation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/18.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=iy6sqn3ELHg&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=134][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Unimolecular Reactions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/19.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=j3cl9Rf5Gq0&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=135][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Catalysis
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/20.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=MFcECBR9HaY&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=136][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Michaelis-Menton Mechanism
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/kinetics/21.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=kXHIOxfwkRw&list=PLm8ZSArAXicJAzGE7ebwSOiFN-f9xEOKu&index=137][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+
+** Computational Chemistry [0/68] [0%]
+#+LATEX: \secttoc \pagebreak[4]
+
+#+BEGIN_SRC shell :results raw :eval no-export :exports results
+text="Computational Chemistry "
+url="https://www.youtube.com/watch?v=YF-amZgE2h4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K"
+python tmp_to_org_scraper_images.py $url "$text" "comp_chem"
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell :results raw :exports results :eval no-export
+prefix="comp_chem"
+python make_org_chapter.py "$prefix"
+#+END_SRC
+
+#+RESULTS:
+*** pending Introduction
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/0.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YF-amZgE2h4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=1][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending XYZ File Format
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/1.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=f6K8k0sH2TY&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=2][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending PDB File Format
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/2.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=_1q7sfjl2Kw&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=3][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Avogadro and VMD
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/3.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=CY7UkDuOHqo&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=4][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Drawing Molecules
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/4.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=I673GFZUuMQ&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=5][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Python and Jupyter
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/5.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YCJ9OC8vgXk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=6][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Bond Lengths
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/6.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=8IuyJMvaaas&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=7][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Covalent Radius
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/7.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=b_X4-pTDsWA&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=8][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Bond Angles
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/8.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=jX0JL05VN8M&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=9][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Torsion Angles
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/9.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=NSU0OnW9yLk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=10][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Z-Matrix Format
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/10.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=-RDRp7Kqgmk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=11][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Out-of-Plane Angles
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/11.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xZvsCxwyBSw&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=12][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Center of Mass
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/12.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=vEMj80ft6TU&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=13][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Moment of Inertia
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/13.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=L3I6WJcgNs8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=14][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Rotational Constants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/14.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=7ePudiWAWtI&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=15][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Energy Functions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/15.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=dt8yhAWwGj8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=16][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Mechanics
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/16.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Zn-0jNJ9ZuY&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=17][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Force Field Parameters
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/17.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=6DEInmWiUKs&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=18][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atom Types
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/18.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=70jxk4mvNaw&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=19][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Bond Stretch Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/19.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=M98vB7W9ELk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=20][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Angle Bend Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/20.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=YI-hzCzCtGs&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=21][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Torsion Strain Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/21.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=snTqtYxnCok&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=22][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Out-of-Plane Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/22.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=RF1b70a4oio&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=23][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM van der Waals Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/23.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=yJ5MM7DouC0&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=24][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Electrostatics Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/24.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=G3NXJ7JOXI8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=25][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Cross Terms
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/25.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Vn6gJONz-mQ&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=26][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MM Program
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/26.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xMO5Iqw_S-c&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=27][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Energy Gradient
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/27.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BnT6Onll1eQ&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=28][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Energy Minimization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/28.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=OCcxxddYrDg&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=29][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Steepest Descent
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/29.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=WvkSCxLqkxY&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=30][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Conjugate Gradient
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/30.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=AyFXfAhwVBQ&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=31][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Ensemble Properties
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/31.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=rBni87N8cBs&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=32][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Thermal Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/32.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=b8n1k3Iob0Q&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=33][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Boundary Conditions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/33.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=J3aB9xp1YIE&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=34][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Dynamics
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/34.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=QiZk_uT-40E&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=35][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MD Program
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/35.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=kvJ1siWcBfM&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=36][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Monte Carlo
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/36.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=mW9Tbdp1yCs&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=37][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Metropolis Monte Carlo
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/37.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=xVvUFB5Hk-g&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=38][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending MC Program
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/38.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bZSrVUZlSp4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=39][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Simulated Annealing
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/39.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=z4F3X0_G4eo&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=40][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Molecular Hamiltonian
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/40.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=B3D_WZ3NbbM&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=41][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Atomic Units
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/41.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=vZc-PUS3ckg&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=42][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Born-Oppenheimer Approximation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/42.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=NNQWjq7GuYw&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=43][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spin Orbitals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/43.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=5e-JQ7z73G8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=44][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree Product
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/44.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Ip7vKMHrBDo&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=45][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Anti-Symmetry Principle
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/45.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=c_MdWCVsJqQ&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=46][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Slater Determinants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/46.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=EnSA3lfcFBk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=47][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Excited Determinants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/47.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hbC3-AbN1Z8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=48][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending N-Electron Wavefunctions
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/48.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=hJ6_9rv0_dU&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=49][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Restricted Determinants
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/49.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GfikDxCxZqw&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=50][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending One-Electron Integrals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/50.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=0ZMWyEuLmoI&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=51][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Two-Electron Integrals
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/51.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=DGH5nfHHDgE&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=52][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Spin Integration
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/52.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=BFHXSWGoveo&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=53][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Approximation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/53.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=FhlgBzbuIxk&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=54][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/54.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=TK5B0axOaO4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=55][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Coulomb and Exchange Operators
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/55.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Wh9ci7sgKsU&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=56][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Fock Operator
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/56.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=3ph5XtkRVl0&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=57][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Functional Variation
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/57.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=Hy3mSGcvVAY&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=58][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Minimum Determinant Energy
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/58.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=GTMOmWexkn4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=59][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Canonical Hartree-Fock Equations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/59.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=eaaQoLYk-So&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=60][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Koopman's Theorem
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/60.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=bl8wek_jvRA&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=61][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Restricted Hartree-Fock
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/61.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=ckMkJ5Z9hZ0&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=62][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Hartree-Fock-Roothaan Equations
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/62.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=qQGkOgWXuws&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=63][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Density Matrix
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/63.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=KxUYUHMxKnA&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=64][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Fock Matrix
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/64.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=lXaN7fzII7k&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=65][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Orthogonalization
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/65.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=2N104Nf-_L4&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=66][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Self-Consistent Field
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/66.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=x-O3_t4GVy8&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=67][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+*** pending Population Analysis
+#+LATEX: \makebox[\textwidth][c]{
+#+ATTR_ORG: :width 650
+#+ATTR_LATEX: :width 1.2\textwidth
+[[./tmp_proc_img/comp_chem/67.png]]
+#+LATEX: }
+#+BEGIN_COMMENT html
+[[https://www.youtube.com/watch?v=OYqotoTR59s&list=PLm8ZSArAXicIWTHEWgHG5mDr8YbrdcN1K&index=68][LINK]]
+#+END_COMMENT
+#+LATEX: \pagebreak[4]
+
+* Computational Chemistry Cramer
+#+BEGIN_SRC shell :results raw
+text="CompChem."
+url="https://www.youtube.com/watch?v=pu4uL7deCNw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF"
+python tmp_to_org_scraper.py $url $text
+#+END_SRC
+
+** pending 02.01 The Potential Energy Surface — Preamble to the Basic Force Field Part I 
+ [[https://www.youtube.com/watch?v=pu4uL7deCNw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=1][LINK]]
+** pending 02.02 The Potential Energy Surface — Preamble to the Basic Force Field Part II 
+ [[https://www.youtube.com/watch?v=KdIkBVhAWCg&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=2][LINK]]
+** pending 02.03 The Potential Energy Surface and the Basic Force Field Part I 
+ [[https://www.youtube.com/watch?v=9i06lhXF1_Y&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=3][LINK]]
+** pending 02.04 The Potential Energy Surface and the Basic Force Field Part II 
+ [[https://www.youtube.com/watch?v=9VsiQnyyuW4&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=4][LINK]]
+** pending 02.05 The Potential Energy Surface and the Basic Force Field Part III 
+ [[https://www.youtube.com/watch?v=GoQ7Ki95zTs&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=5][LINK]]
+** pending 02.06 Simulations with MM Force Fields — Monte Carlo and Molecular Dynamics Part I 
+ [[https://www.youtube.com/watch?v=MK5BrpgUMUM&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=6][LINK]]
+** pending 02.07 Simulations with MM Force Fields — Monte Carlo and Molecular Dynamics Part II 
+ [[https://www.youtube.com/watch?v=IzcxP7iUHcg&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=7][LINK]]
+** pending 02.08 Simulations with MM Force Fields — Monte Carlo and Molecular Dynamics Part III 
+ [[https://www.youtube.com/watch?v=ddO_zZ95GXY&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=8][LINK]]
+** pending 03.01 Foundations of Molecular Orbital Theory: LCAO Wave Functions 
+ [[https://www.youtube.com/watch?v=BGUtZsnPIGo&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=9][LINK]]
+** pending 03.02 Foundations of Molecular Orbital Theory: Effective Hamiltonians 
+ [[https://www.youtube.com/watch?v=aNusRKo2CX0&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=10][LINK]]
+** pending 03.03 Foundations of Molecular Orbital Theory: Hückel Theory for the Allyl System 
+ [[https://www.youtube.com/watch?v=aaj_LEGwPwc&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=11][LINK]]
+** pending 03.04 Semiempirical Molecular Orbital Theory: Slater Determinants and Hartree-Fock Theory 
+ [[https://www.youtube.com/watch?v=LrkeclnlsII&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=12][LINK]]
+** pending 03.05 Semiempirical Molecular Orbital Theory: Early Fock Matrix Simplifications 
+ [[https://www.youtube.com/watch?v=3oQVtM78VVE&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=13][LINK]]
+** pending 03.06 Semiempirical Molecular Orbital Theory: Further Fock Matrix Simplifications 
+ [[https://www.youtube.com/watch?v=eNq8QPTd4UE&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=14][LINK]]
+** pending 03.07 Semiempirical Molecular Orbital Theory: Modern Usage 
+ [[https://www.youtube.com/watch?v=bYSyfEIRVho&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=15][LINK]]
+** pending 04.01 Ab Initio Hartree-Fock Theory: Basis Sets and LCAO Wave Functions 
+ [[https://www.youtube.com/watch?v=43Kd3yUG5io&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=16][LINK]]
+** pending 04.02 Post-Hartree-Fock Theory: Electron Correlation and Configuration Interaction 
+ [[https://www.youtube.com/watch?v=5BZxa6fZHZU&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=17][LINK]]
+** pending 04.03 Post Hartree-Fock Theory: Perturbation and Coupled Cluster Theories 
+ [[https://www.youtube.com/watch?v=np81k16E4I0&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=18][LINK]]
+** pending 04.04 From Electronic Energies to Thermodynamics: Triumph of Statistical Mechanics 
+ [[https://www.youtube.com/watch?v=thZltjosL1I&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=19][LINK]]
+** pending 04.05 Benchmarking Post-Hartree-Fock Wave Function Theory Models 
+ [[https://www.youtube.com/watch?v=n3D1c8zV-x0&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=20][LINK]]
+** pending 04.06 Open-Shell Calculations: Unpaired Electrons and ESR Spectroscopy 
+ [[https://www.youtube.com/watch?v=Vs6EBJ0EkiY&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=21][LINK]]
+** pending 04.07 Unpaired Electrons: Restricted Open-shell vs Unrestricted Calculations 
+ [[https://www.youtube.com/watch?v=0n2Xy2uXXzI&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=22][LINK]]
+** pending 04.08 Molecular Properties 
+ [[https://www.youtube.com/watch?v=GmMXWuarG-k&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=23][LINK]]
+** pending 05.01 Density Functional Theory: Fundamentals 
+ [[https://www.youtube.com/watch?v=ofyr1GyEZsU&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=24][LINK]]
+** pending 05.02 Density Functional Theory: Early Approximations 
+ [[https://www.youtube.com/watch?v=hrpfTvrI2s4&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=25][LINK]]
+** pending 05.02erratum Density Functional Theory: Early Approximations 
+ [[https://www.youtube.com/watch?v=oXOFhXfNIzk&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=26][LINK]]
+** pending 05.03 Density Functional Theory: Hohenberg-Kohn Theorems 
+ [[https://www.youtube.com/watch?v=vvRS8SHjAFw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=27][LINK]]
+** pending 05.04 Kohn-Sham Density Functional Theory 
+ [[https://www.youtube.com/watch?v=jaRA8HnTRLw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=28][LINK]]
+** pending 05.05 Density Functional Theory: Local Density Approximation 
+ [[https://www.youtube.com/watch?v=gk6HAl-7OmU&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=29][LINK]]
+** pending 05.06 Density Functional Theory: Generalized Gradient Approximation 
+ [[https://www.youtube.com/watch?v=VNoVpwhM-Yw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=30][LINK]]
+** pending 05.07 Density Functional Theory: Adiabatic Connection and Hybrid Functionals 
+ [[https://www.youtube.com/watch?v=CzyR2lRgVtQ&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=31][LINK]]
+** pending 05.08 Density Functional Theory: Performance and Scope 
+ [[https://www.youtube.com/watch?v=bXLINpIChEw&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=32][LINK]]
+** pending 06.01 Solvation Models: Chemical Phenomena 
+ [[https://www.youtube.com/watch?v=Fx3zkPxt2qc&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=33][LINK]]
+** pending 06.02 Solvation Models: Explicit Solvent 
+ [[https://www.youtube.com/watch?v=caxpxBT8JsM&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=34][LINK]]
+** pending 06.03 Solvation Models: Free Energy Perturbation 
+ [[https://www.youtube.com/watch?v=Xv95xYlsrbY&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=35][LINK]]
+** pending 06.04 Solvation Models: Continuum (Implicit) Solvent Electrostatics 
+ [[https://www.youtube.com/watch?v=tB4xZLUGJqM&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=36][LINK]]
+** pending 06.05 Solvation Models: Continuum (Implicit) Solvent Non-electrostatics 
+ [[https://www.youtube.com/watch?v=VN6D5lgJvUc&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=37][LINK]]
+** pending 06.06 Solvation Models: Phase-Phase Partitioning 
+ [[https://www.youtube.com/watch?v=quAOVYJuJQU&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=38][LINK]]
+** pending 06.07 Solvation Models: Hybrid Explicit/Implicit Solvent 
+ [[https://www.youtube.com/watch?v=hXT5KWDBnRI&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=39][LINK]]
+** pending 07.01 Quantum Mechanical/Molecular Mechanical (QM/MM) Models Part I 
+ [[https://www.youtube.com/watch?v=RQ_T1nipgJg&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=40][LINK]]
+** pending 07.02 Quantum Mechanical/Molecular Mechanical (QM/MM) Models Part II 
+ [[https://www.youtube.com/watch?v=3egMZdq-BP0&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=41][LINK]]
+** pending 07.03 Quantum Mechanical/Molecular Mechanical (QM/MM) Models Part III 
+ [[https://www.youtube.com/watch?v=luNCpm8fhsk&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=42][LINK]]
+** pending 07.04 Excited Electronic States: Configuration Interaction 
+ [[https://www.youtube.com/watch?v=KrDz8zayXoI&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=43][LINK]]
+** pending 07.05 Excited Electronic States: Perturbation and Time-Dependent Density Functional Theory 
+ [[https://www.youtube.com/watch?v=YG9eXUzlHRk&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=44][LINK]]
+** pending 07.06 Excited Electronic States: Conical Intersections and Dynamics 
+ [[https://www.youtube.com/watch?v=Jsi8b1M45bg&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=45][LINK]]
+** pending 07.07 Excited Electronic States: Solvatochromism 
+ [[https://www.youtube.com/watch?v=PdNE4VZrhys&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=46][LINK]]
+** pending 07.08 Kinetics and Dynamics: Transition-state Theory 
+ [[https://www.youtube.com/watch?v=KOCpYupHTN4&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=47][LINK]]
+** pending 07.09 Kinetics and Dynamics: Kinetic Isotope Effects 
+ [[https://www.youtube.com/watch?v=ko8zE4tZmVI&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=48][LINK]]
+** pending 07.10 Kinetics and Dynamics: Tunneling, VTST, and Marcus Theory 
+ [[https://www.youtube.com/watch?v=WXBu_r-_5Ag&list=PLkNVwyLvX_TFBLHCvApmvafqqQUHb6JwF&index=49][LINK]]
+
+* Coursera
+** Physics
+*** Introduction to Physical Chemistry
+*** Statistical Molecular Thermodynamics
+*** Statistical Mechanics: Algorithms
+** Microbiology
+*** Resistance
+*** Chronic Infections
+*** Metagenomics
+** Data Science, Machine Learning, Statistics
+* cognitiveclass.ai
+
