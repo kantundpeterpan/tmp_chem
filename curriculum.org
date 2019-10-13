@@ -1,13 +1,18 @@
 #+TITLE: Master Curriculum
 #+TODO: pending ongoing | DONE
 * Datacamp
-** [#A] Finish Data scientist track [0/6] [0%]
-*** ongoing Manipulating DataFrames with pandas
-*** pending Merging DataFrames with pandas
-*** pending Analyzing policy activity with pandas
-*** pending Joining Data in SQL
-*** pending Machine Learning with Tree Based models in Python
-*** pending Machine Learning with the experts
+** [#A] Finish Data scientist track [5/5] [100%]
+*** DONE Manipulating DataFrames with pandas
+    CLOSED: [2019-10-13 dim. 14:19]
+*** DONE Merging DataFrames with pandas
+    CLOSED: [2019-10-13 dim. 14:19]
+*** DONE Analyzing policy activity with pandas
+    CLOSED: [2019-10-13 dim. 14:19]
+*** DONE Joining Data in SQL
+    CLOSED: [2019-10-13 dim. 14:19]
+*** Machine Learning with Tree Based models in Python
+*** DONE Machine Learning with the experts
+    CLOSED: [2019-10-13 dim. 14:19]
 ** Statistics [0/7]
 *** pending Foundations of Probability
 *** pending Experimental Design in Python
@@ -216,6 +221,7 @@ python make_org_chapter.py "$prefix"
 [[https://www.youtube.com/watch?v=uAM3t-M6Orc&list=PLm8ZSArAXicJpCTKOI0TvO0H6IGlJMu8-&index=14][LINK]]
 #+END_COMMENT
 #+LATEX: \pagebreak[4]
+
 *** pending Basic Integrals
 #+LATEX: \makebox[\textwidth][c]{
 #+ATTR_ORG: :width 650
