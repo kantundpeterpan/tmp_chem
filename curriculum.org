@@ -13,7 +13,7 @@
 *** Machine Learning with Tree Based models in Python
 *** DONE Machine Learning with the experts
     CLOSED: [2019-10-13 dim. 14:19]
-** Statistics [0/7]
+** Statistics [0/8]
 *** pending Foundations of Probability
 *** pending Experimental Design in Python
 *** pending Statistical Simulation in Python
@@ -21,17 +21,28 @@
 *** pending Introduction to Time Series Analysis
 *** pending Network Analysis in Python Part2
 *** pending Customer Analytics & A/B Testing
+*** [#C] Exploratory Data Analysis
+*** pending Clustering Methods in Python
+** Visualization
+*** Introduction to Seaborn
+*** Improving Your Data Visualizations in Python
+** Dates and Times
+*** Introduction to Time Series Analysis
+*** Manipulating Time Series Data
+*** Working with dates and times
+*** Visualizing time series data
+*** Forecasting Using ARIMA Models
+*** Machine Learning for Time Series
 ** Machine Learning
 *** NLP
 **** Building Chatbots
 **** Sentiment analysis
 **** Feature Engineering for NLP in Python
+**** Recurrent Neural Networks for Language Modeling in Python
 *** Learning Algorithms
 **** Ensemble Methods
-**** Forecasting Using ARIMA Models
 **** Linear Classifiers
 **** Convolutional Neural Networks
-**** Machine Learning for Time Series
 **** Generalized Linear Models
 **** Clustering Methods
 *** Libraries
@@ -45,6 +56,7 @@
 **** Designing Machine Learning Workflows
 *** Data processing for Model building
 **** Preprocessing for Machine Learning
+**** Dealing with missing data in Python
 **** Dimensionality Reduction
 **** Feature Engineering for Machine Learning
 *** Big Data
@@ -58,6 +70,23 @@
 **** Customer Segmentation
 **** Foundations of Predictive Analytics I + II
 **** HR analytics
+**** Analyzing Social Media Data in Python
+** Preparing for job interviews
+*** Machine Learning
+*** Coding
+*** Statistics
+** Python Programming
+*** Regex
+*** Command Line Automation
+*** Image Processing
+*** Writing Functions
+*** Unit Testing
+*** Optimizing Python Code with Pandas
+*** Creating Robust Python Workflows
+*** Writing efficient Python code
+*** Software Engineering for Data Scientist
+*** Object-Oriented Programming in Python
+
 * nanohub-U
 * TMP Chem
 :PROPERTIES:
