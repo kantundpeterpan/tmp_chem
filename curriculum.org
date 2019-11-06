@@ -13,7 +13,7 @@
 *** Machine Learning with Tree Based models in Python
 *** DONE Machine Learning with the experts
     CLOSED: [2019-10-13 dim. 14:19]
-** Statistics [0/8]
+** Statistics [1/8]
 *** pending Foundations of Probability
 *** pending Experimental Design in Python
 *** pending Statistical Simulation in Python
@@ -22,7 +22,8 @@
 *** pending Network Analysis in Python Part2
 *** pending Customer Analytics & A/B Testing
 *** [#C] Exploratory Data Analysis
-*** pending Clustering Methods in Python
+*** DONE Clustering Methods in Python
+    CLOSED: [2019-11-06 mer. 23:27]
 ** Visualization
 *** Introduction to Seaborn
 *** Improving Your Data Visualizations in Python
@@ -32,7 +33,8 @@
 *** Working with dates and times
 *** Visualizing time series data
 *** Forecasting Using ARIMA Models
-*** Machine Learning for Time Series
+*** DONE Machine Learning for Time Series
+    CLOSED: [2019-11-06 mer. 23:29]
 ** Machine Learning
 *** NLP
 **** Building Chatbots
@@ -41,24 +43,31 @@
 **** Recurrent Neural Networks for Language Modeling in Python
 *** Learning Algorithms
 **** Ensemble Methods
-**** Linear Classifiers
+**** DONE Linear Classifiers
+     CLOSED: [2019-11-06 mer. 23:28]
 **** Convolutional Neural Networks
 **** Generalized Linear Models
-**** Clustering Methods
+**** DONE Clustering Methods
+     CLOSED: [2019-11-06 mer. 23:28]
 *** Libraries
-**** XGBoost
+**** DONE XGBoost
+     CLOSED: [2019-11-06 mer. 23:29]
 **** PyTorch
 **** Tensorflow
 **** Spark
 *** Model Optimization and Validation
 **** Hyperparamter Tuning
-**** Model Validation
+**** DONE Model Validation
+     CLOSED: [2019-11-06 mer. 23:28]
 **** Designing Machine Learning Workflows
 *** Data processing for Model building
-**** Preprocessing for Machine Learning
+**** DONE Preprocessing for Machine Learning
+     CLOSED: [2019-11-06 mer. 23:28]
 **** Dealing with missing data in Python
-**** Dimensionality Reduction
-**** Feature Engineering for Machine Learning
+**** DONE Dimensionality Reduction
+     CLOSED: [2019-11-06 mer. 23:28]
+**** DONE Feature Engineering for Machine Learning
+     CLOSED: [2019-11-06 mer. 23:28]
 *** Big Data
 **** Big Data Fundamentals via PySpark
 **** Building Recommandation Engines with PySpark
